@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- * more comments can go here
+ * Return: 0
 */
 
 /* need to understand what betty style is */
