@@ -11,7 +11,7 @@ int numL;
 int numM;
 for (numL = 48; numL <= 57; numL++)
 {
-for (numM = numM + 1; numM <= 57; numM++)
+for (numM = numL + 1; numM <= 57; numM++)
 {
 for (numR = numM + 1; numR <= 57; numR++)
 {
