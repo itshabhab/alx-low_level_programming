@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: 0.
+ * Return: 0
  */
 int main(void)
 {
-char num;
-for (num = '0'; num <= '9'; num++)
+int num;
+for (num = 48; num <= 57; num++)
 putchar(num);
 putchar('\n');
 return (0);
