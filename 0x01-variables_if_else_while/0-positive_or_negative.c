@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry point
+ * more comments can go here
+*/
+
+/* need to understand what betty style is */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is postive\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+else
+printf("%d is zero\n", n);
+	return (0);
+}
