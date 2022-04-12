@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Make alphabet x10 times
- * Return: void
+ * _islower - Entry point
+ * Description: checks is a character is lowercase
+ * @c: the integer value it receives
+ *  Return: 1 if true. 0 if false.
  */
-void print_alphabet_x10(void)
+int _islower(int c)
 {
-char c;
-int i = 0;
-while (i <= 9)
+int i = 'a';
+for (i = 'a'; i <= 'z'; i++)
 {
-for (c = 'a'; c <= 'z'; c++)
+if (c == i)
 {
-_putchar(c);
+return (1);
 }
-_putchar ('\n');
 }
-i++;
+return (0);
 }
