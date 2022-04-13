@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - Entry point
  * Descrition: computes and prints even number < 4,000,000
  * 5 below 1024 (excluded), followed by a new line
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {
