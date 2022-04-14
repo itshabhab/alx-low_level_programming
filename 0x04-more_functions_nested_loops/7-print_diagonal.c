@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 
 /**
  * print_diagonal - diagonal lines made of backslashes
