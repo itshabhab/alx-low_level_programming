@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - Entry point
+ * _strncat - Entry point
  * @dest: Variables which will hold the strings
  * @src: variables which holds the strings
  * @n: int
