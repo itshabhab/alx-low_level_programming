@@ -15,4 +15,3 @@ print_binary(n >> 1);
 */
 _putchar((n & 1) + '0');
 }
-
